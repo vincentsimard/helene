@@ -1,0 +1,879 @@
+  .archiveComboBox 
+  { 
+    width: 125px;
+  }
+    
+  TABLE.header
+  {        
+    border:  0px;
+    padding: 0px;
+    margin:  0px;
+    width:   100%;      
+  }
+  
+  TD.dataLogo
+  {
+    text-align:        center;
+    background-color:  #FFFFFF;  
+    border :           none;  
+    padding:           0px;          
+  }
+  
+  TD.dataHeader
+  {    
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #CCCCCC;
+    border:            1px solid #274F70;  
+    padding:           0px;          
+  }      
+    
+  TABLE.groupe
+  {        
+    border:  1px solid #274F70;
+    padding: 0px;
+    margin:  0px;
+    width:   100%;          
+  }
+  
+  TD.data
+  {  
+    text-align:        left;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #CCCCCC;  
+    border :           none;    
+    padding:           0px;
+  }      
+  
+  .data1
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;  
+    border :           none;        
+  }
+  .data2
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #DDDDDD;  
+    border :           none;        
+  }   
+  
+  TD.dataTitre
+  {                
+    text-align:        left;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #444444;
+    border:            none;
+    color:             #FFFFFF;        
+    padding:           0px;
+  }
+  
+  TD.dataHotNews
+  {                
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #444444;
+    border:            none;
+    color:             #FF9900;        
+    padding:           0px;
+  }
+  
+  TD.dataTitreOrange
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    background-color:  #FFFFFF;
+    border:            none;
+    color:             #FF6600;      
+    padding:           0px;
+    vertical-align:    middle;
+  }  
+      
+  TD.dataSousTitre
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         12pt;
+    font-family:       arial;
+    color:             #FFFFFF;
+    background-color:  #444444;  
+    border:            none;          
+    padding:           0px;
+  }          
+    
+  TABLE.groupeHonneurs
+  {        
+    border:  1px solid #274F70;
+    padding: 0px;
+    margin:  0px;
+    width:   151;
+  }
+  
+  TABLE.groupeResultats
+  {            
+    border:  1px solid #274F70;
+    padding: 0px;
+    margin:  0px;
+    width:   100%;            
+  }
+      
+  TD.dataNews
+  {  
+    text-align:        justify;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;  
+    border:            none;    
+    padding:           5px;
+    height:            100%;
+  }        
+  
+  TD.dataCopyright
+  {  
+    text-align:        right;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;  
+    border:            none;  
+    padding:           1px;        
+  }  
+  
+  TABLE.groupeEquipes
+  {        
+    border:  1px solid #274F70;
+    padding: 0px;
+    margin:  0px;
+    width:   355px;     
+    height:  112px;  
+  }    
+  
+  TD.dataEquipes
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;  
+    border:            none;    
+  }    
+    
+  TABLE.tableRepechage
+  {  
+    background-color: #FFFFFF;          
+    border:           3px solid #1A599C;
+    padding:          0px;
+    margin:           0px;
+    width:            92%;            
+  }
+    
+  TD.dataRangRepechage
+  {
+    width:        40;
+    text-align:   center;
+    font-size:    12pt;
+    font-weight:  bold;
+    font-family:  arial,verdana;  
+  }
+  
+  TD.dataEquipeRepechage
+  {
+    width:       45;
+    text-align:  center;        
+  }
+  
+  TD.dataJoueurRepechage
+  {
+    width:       150;
+    text-align:  left;
+    font-family: verdana,arial;
+    font-size:   10pt;  
+  }
+  
+  FONT.titreRepechage
+  { 
+    text-align:         center;  
+    text-decoration:    none;
+    font-weight:        bold;
+    font-size:          18pt;
+    font-family:        verdana,arial;
+    color:              #002261;
+    background-color:   #FFFFFF;    
+  }      
+  
+  FONT.sousTitreRepechage
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         14pt;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #FFFFFF;    
+  }
+  
+  TABLE.tableRetraites
+  {  
+    background-color: #FFFFFF;          
+    border:           2px solid #1A599C;
+    padding:          0px;
+    margin:           0px;
+    width:            40%;            
+  }    
+    
+  TABLE.tableEchanges
+  {  
+    background-color: #FFFFFF;          
+    border:           3px solid #1A599C;
+    padding:          0px;
+    margin:           0px;
+    width:            92%;            
+  }
+    
+  TD.dataNumeroEchange
+  {
+    width:             50;
+    text-align:        center;
+    font-size:         16;
+    font-weight:       bold;
+    font-family:       arial,verdana;  
+    background-color:  #DDDDDD
+  }
+  
+  TD.dataEquipeEchange
+  {
+    width:       50;
+    text-align:  center;        
+  }
+  
+  TD.dataJoueursEchange
+  {
+    width:          350;
+    text-align:     left;
+    font-family:    verdana,arial;
+    font-size:      13;  
+    vertical-align: middle;
+  }
+  
+  TD.dataNbEchanges
+  {
+    text-align:   left;
+    font-family:  verdana, arial;
+    font-weight:  bold;
+    font-size:    12;
+  }  
+  
+  FONT.titreEchanges
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         18pt;
+    font-family:       verdana,arial;
+    color:             #002261;
+    background-color:  #FFFFFF;    
+  }      
+    
+  FONT.sousTitreEchanges
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         18;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #FFFFFF;    
+  }
+  
+  FONT.sousTitreExplications
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         13;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #FFFFFF;    
+  }
+    
+  FONT.sousTitreMois
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         18;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #FFFFFF;    
+  }
+  
+  FONT.titreResultats
+  {
+    text-align:   left;
+    font-family:  arial,verdana;
+    color:        #FFFFFF;
+    font-size:    16px;
+    font-weight:  bold;
+  }
+  
+  FONT.dateResultats
+  {
+    text-align:       left;
+    font-family:      verdana,arial;
+    color:            #FF6600;
+    font-size:        10px;
+    font-weight:      bold;
+    text-decoration:  italic;
+  }
+  
+  FONT.jourResultats
+  {
+    text-align:       left;
+    font-family:      verdana,arial;
+    color:            #FFFFFF;
+    font-size:        11px;
+    font-weight:      bold;
+    text-decoration:  italic;
+  }
+  
+  FONT.copyrightDom
+  {
+    text-align:       left;
+    font-family:      verdana,arial;
+    color:            #FFFFFF;
+    font-size:        6pt;
+    font-weight:      bold;
+    text-decoration:  none;
+  }
+  
+  FONT.copyrightDom2
+  {
+    text-align:       left;
+    font-family:      verdana,arial;
+    color:            #000000;
+    font-size:        6pt;
+    font-weight:      bold;
+    text-decoration:  none;
+  }
+  
+  .commandite1
+  {
+    text-align:       center;
+    font-family:      tahoma,arial;
+    color:            #000000;
+    font-size:        8pt;
+    font-weight:      bold;
+    text-decoration:  none;
+  }  
+  
+  FONT.nextGames
+  {
+    text-align:   left;
+    font-family:  verdana,arial;
+    color:        #FFFFFF;
+    font-size:    10px;
+  }
+        
+  TABLE.tableTrophees
+  {  
+    border:            1px solid #1A599C;
+    padding:           0px;
+    margin:            0px;
+    width:             90%;  
+    background-color:  #FFFFFF        
+  }
+  
+  TD.dataNomTrophee
+  {    
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         18pt;
+    font-family:       comic sans ms,verdana,arial;
+    color:             #FFFFFF;
+    background-color:  #1A599C;      
+  }
+  
+  TD.dataDescriptionTrophee
+  {    
+    text-align:        left;
+    vertical-align:    top;
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         12pt;
+    font-family:       arial,verdana;
+    color:             #000000;
+    background-color:  #FFFFFF;
+    width:             100%;      
+  }                  
+  
+  TD.dataChampTrophee
+  {    
+    text-align:        center;    
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #CCCCCC;
+    width:             20%;      
+  }    
+  
+  TD.dataChampHeader
+  {    
+    text-align:        center;    
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #CCCCCC;       
+  }    
+  
+  TD.dataGagnants
+  {    
+    text-align:        center;    
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         12pt;
+    font-family:       verdana,arial;
+    color:             #FFFFFF;
+    background-color:  #002261;
+  }
+    
+  TD.dataNomGagnant
+  {    
+    text-align:        right;    
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;
+  }
+  
+  TD.dataGagnantSaison
+  {    
+    text-align:        center;    
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         14pt;
+    font-family:       comic sans ms,arial,verdana;
+    color:             #002261;    
+  }
+  
+  TD.dataHonneur
+  {
+    text-align:        center;    
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #002261;    
+  }
+  
+  FONT.titreTrophees
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         22pt;
+    font-family:       verdana,arial;
+    color:             #002261;
+    background-color:  #FFFFFF;    
+  }    
+  
+  FONT.equipeTrophee
+  { 
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         16;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #FFFFFF;    
+  }  
+    
+  TD.dataEnteteChamps
+  {
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #CCCCCC;    
+  }  
+  
+  TD.dataAutonomesPos
+  {
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         13pt;
+    font-family:       verdana,arial;
+    color:             red;
+    background-color:  #FFFFFF;    
+  }
+  
+  TD.dataAutonomesNom
+  {
+    text-align:        left;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         11pt;
+    font-family:       verdana,arial;
+    color:             #002261;
+    background-color:  #FFFFFF;    
+  }
+  
+  TD.dataAutonomesContrat
+  {
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #002261;
+    background-color:  #FFFFFF;    
+  }
+  
+  A:link 
+  {        
+    text-decoration:  none;
+    font-weight:      none;
+    font-family:      verdana,arial;
+    color:            #000000;      
+  }
+  
+  A:visited
+  {        
+    text-decoration:  none;
+    font-weight:      none;
+    font-family:      verdana,arial;
+    color:            #000000;      
+  }
+  
+  A:active, A:hover 
+  {        
+    text-decoration:  underline;
+    font-weight:      none;
+    font-family:      verdana,arial;
+    color:            #FF6600;      
+  }    
+  
+  A.equipe 
+  {    
+    font-size: 10px;      
+  }
+    
+  A.resultats:link,A.resultats:visited
+  {        
+    font-size:        10px;
+    color:            #FFFFFF;
+    font-family:      verdana,arial;
+    font-weight:      none;  
+    text-decoration:  none;
+  }
+  
+  A.resultats:active,A.resultats:hover
+  {        
+    font-size:        10px;
+    color:            #FF6600;
+    font-family:      verdana,arial;
+    font-weight:      bold;  
+    text-decoration:  none;
+  }
+  
+  A.madotrackss:link,A.madotrackss:visited
+  {        
+    font-size:        8pt;
+    color:            #FFFFFF;
+    font-family:      comic sans ms;
+    font-weight:      bold;  
+    text-decoration:  none;
+  }
+  
+  A.madotrackss:active,A.madotrackss:hover
+  {        
+    font-size:        8pt;
+    color:            #FF6600;
+    font-family:      comic sans ms;
+    font-weight:      bold;  
+    text-decoration:  none;
+  }
+  
+  A.madotrackss2:link,A.madotrackss2:visited
+  {        
+    font-size:        8pt;
+    color:            #000000;
+    font-family:      comic sans ms;
+    font-weight:      bold;  
+    text-decoration:  none;
+  }
+  
+  A.madotrackss2:active,A.madotrackss2:hover
+  {        
+    font-size:        8pt;
+    color:            #FF6600;
+    font-family:      comic sans ms;
+    font-weight:      bold;  
+    text-decoration:  none;
+  }
+    
+  TABLE.PLF
+  {        
+    border:  1px solid #444444;
+    width:   165;          
+  }
+  
+  TD.PLFRang
+  {  
+    text-align:        center;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         10pt;
+    font-family:       verdana,arial;
+    color:             #1A599C;
+    background-color:  #DDDDDD; 
+	width: 25px;
+  }      
+  
+  TD.PLFVictoire
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #FF6600;
+    color:             #002261; 
+  }
+  
+  TD.PLFVictoires
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #000000;
+    color:             #FF6600; 
+  }
+  
+  TD.PLFDefaite
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #FFFFFF;
+    color:             #002261;  
+  }
+
+    TD.PLFDefaites
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #FFFFFF;
+    color:             #002261;  
+  }
+  
+     TABLE.TPOP
+  {        
+    border:  1px solid #444444;
+    width:   165;          
+  }
+  
+  TD.TPOPpositive
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #17824D;
+    color:             #17824D;  
+  }
+  
+    TD.TPOPnegative
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #A82828;
+    color:             #A82828;  
+  }
+
+    TD.TPOPneutral
+  {                
+    text-align:        center;
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    background-color:  #FFFFFF;
+    color:             #002261;  
+  }
+  
+  .searchbox 
+  {        
+    font-size:        10px;
+    font-family:      arial;
+    font-weight:      bold;
+    text-decoration:  none;
+    color:            #000000;
+  }
+  
+  .honneurs 
+  {        
+    text-align:       center;  
+    text-decoration:  none;
+    font-weight:      bold;
+    font-size:        8pt;
+    font-family:      arial;
+    color:            #FFFFFF;
+    background-color: #FF6600;  
+    border:           none;          
+    padding:          0px;
+  }
+  
+  .articlesTitre
+  {  
+    text-align:        left;  
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         7pt;
+    font-family:       arial;
+    color:             #FFFFFF;
+    background-color:  #1A599C;  
+    border :           none;        
+  }  
+  .articles1
+  {  
+    text-align:        left;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #FFFFFF;  
+    border :           none;        
+  }
+  .articles2
+  {  
+    text-align:        left;  
+    text-decoration:   none;
+    font-weight:       none;
+    font-size:         8pt;
+    font-family:       verdana,arial;
+    color:             #000000;
+    background-color:  #DDDDDD;  
+    border :           none;        
+  }   
+  
+  A.sallePresse:link,A.sallePresse:visited
+  {        
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         7pt;
+    font-family:       tahoma;
+    color:             #FFFFFF;
+    background-color:  #444444;  
+    border :           none;    
+    padding:           0px;
+  }
+  
+  A.sallePresse:active,A.sallePresse:hover
+  {        
+    text-decoration:   none;
+    font-weight:       bold;
+    font-size:         7pt;
+    font-family:       tahoma;
+    color:             #FF6600;
+    background-color:  #444444;  
+    border :           none;    
+    padding:           0px;
+  }
+ 
+ 
+  .viewerBox 
+  { 
+    width:            125px;
+  }
+  
+  A.trade:link,A.trade:visited,A.trade:active
+  {        
+    font-size:        8pt;
+    font-weight:      bold;
+    font-family:      arial;
+    text-decoration:  none;
+    color:            #FFFFFF;
+  }
+  
+  A.trade:hover
+  {        
+    font-size:        8pt;
+    font-weight:      bold;
+    font-family:      arial;
+    text-decoration:  underline;
+    color:            #FFFFFF;
+  }
+  
+  .viewerTitle
+  {        
+    font-size:        11pt;
+    font-weight:      bold;
+    font-family:      arial;
+    text-decoration:  none;
+    color:            #FFFFFF;
+  }
+  
+  .viewerSubTitle
+  {        
+    font-size:        8pt;
+    font-weight:      bold;
+    font-family:      arial;
+    text-decoration:  none;
+    color:            #FFFFFF;
+  }

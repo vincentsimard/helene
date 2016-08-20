@@ -1,0 +1,138 @@
+
+<!-- saved from url=(0032)http://powerplay00.com/menu.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="STYLESHEET" href="./style.css" type="text/css">      
+    <script language="JAVASCRIPT">    
+      function visitClubhouse(team)
+      { 
+        if (team != "DEFAULT") {
+          if (!top.menu.document.forms[0].popupClubhouses.checked) {     
+            top.location.href = 'teams/' + team + '/index_' + team + '.html';
+          } 
+          if (top.menu.document.forms[0].popupClubhouses.checked) {
+            var winpopup = open("teams/" + team + "/index_" + team + ".html","", "width=920 height=450 left=95 scrollbars=yes resizable=yes toolbar=yes status=yes menubar=yes location=yes");
+          }
+        }
+      }   
+      function showArchives(element,year)
+      {
+        if (year != "DEFAULT" && element != "DEFAULT") {
+          url = 'files/' + year + '/' + element;                  
+          top.main.location.href=url;
+        } else {
+          alert("Veuillez choisir un élément d'archive et une année...");
+        }
+      }           
+    </script>  
+  </head>
+
+  <body marginwidth="5" marginheight="5">  
+  
+  <form name="menu">
+<!--<TABLE BGCOLOR="CCCCCC" CLASS="groupe" CELLPADDING="2" CELLSPACING="0">
+      <TR>
+        <TD CLASS="dataTitre">
+          Sites
+        </TD>
+      </TR>  
+      <TR>        
+        <TD CLASS="rec2" ALIGN="CENTER">      
+          <SELECT NAME="clubhouse" onChange="visitClubhouse(document.menu.clubhouse.value);">
+            <OPTION SELECTED VALUE="DEFAULT"> Équipes
+            <OPTION VALUE="ana"> Anaheim
+			<OPTION VALUE="phx"> Arizona
+            <OPTION VALUE="bos"> Boston
+            <OPTION VALUE="buf"> Buffalo
+            <OPTION VALUE="cgy"> Calgary
+            <OPTION VALUE="car"> Caroline
+            <OPTION VALUE="chi"> Chicago
+            <OPTION VALUE="col"> Colorado
+            <OPTION VALUE="clb"> Columbus
+            <OPTION VALUE="dal"> Dallas
+            <OPTION VALUE="det"> Detroit
+            <OPTION VALUE="edm"> Edmonton
+            <OPTION VALUE="fla"> Floride
+            <OPTION VALUE="la"> Los Angeles
+            <OPTION VALUE="min"> Minnesota
+            <OPTION VALUE="mtl"> Montreal
+            <OPTION VALUE="nsh"> Nashville
+            <OPTION VALUE="nj"> New Jersey
+            <OPTION VALUE="nyi"> NY Islanders
+            <OPTION VALUE="nyr"> NY Rangers
+            <OPTION VALUE="ott"> Ottawa
+            <OPTION VALUE="phi"> Philadelphie
+            <OPTION VALUE="pit"> Pittsburgh            
+            <OPTION VALUE="sj"> San Jose
+            <OPTION VALUE="stl"> Saint-Louis
+            <OPTION VALUE="tb"> Tampa Bay
+            <OPTION VALUE="tor"> Toronto
+            <OPTION VALUE="van"> Vancouver                 
+            <OPTION VALUE="wsh"> Washington
+			<OPTION VALUE="wpg"> Winnipeg
+          </SELECT>
+          <BR>
+          <INPUT TYPE="CHECKBOX" NAME="popupClubhouses">        
+          <FONT CLASS="copyrightDom2"  onClick="popupClubhouses.click();"><B>Nouvelle fenêtre</B></FONT>
+        </TD>      
+      </TR>
+    </TABLE>
+    <BR> -->
+
+ <!-- DECEMBER 2014: GET RID OF "TEAM SITE" and "DYNAMIC vs ORIGINAL" WEBSITE ICON.
+<TABLE CLASS="groupe" CELLSPACING=0>      
+      <TR>
+        <TD CLASS="dataTitre">
+				  PowerPlay00
+				</TD>
+      </TR>  
+      <TR>
+        <TD CLASS="data">
+          <A HREF="index.html" TARGET="_top">Site standard</A>
+        </TD>
+      </TR> 
+			<TR>
+        <TD CLASS="data">
+          <A HREF="http://www2.powerplay00.com" TARGET="_blank">Portail dynamique</A>
+        </TD>
+      </TR>  
+    </TABLE>    
+	<br>-->
+
+	<!-------------->
+    <!-- HONNEURS -->
+    <!-------------->
+    <table class="groupe" cellspacing="0">
+      <tbody><tr>
+        <td class="dataTitre">
+          Accueil
+        </td>
+      </tr>      
+      <tr>
+        <td class="data">
+          <a href="http://powerplay00.com/files/Career/trophees.html" target="main">Forfaits</a> 
+        </td>
+      </tr>
+      <tr>
+        <td class="data">
+          <a href="http://powerplay00.com/files/Career/trophees.html#BOURSES" target="main">Portefolio</a> 
+        </td>
+      </tr>  
+	  <tr>
+        <td class="data">
+          <a href="http://powerplay00.com/files/Current/Misc/team_popularity.html" target="main">Contact</a> 
+        </td>
+      </tr>
+	  	  <tr>
+        <td class="data">
+          <a href="http://powerplay00.com/files/Current/Misc/TV.pdf" target="main">Bio</a>
+        </td>
+      </tr>
+    </tbody></table>
+    <br>
+
+
+    <br>
+    <br><br>
+    </form>
+  
+  </body></html>
