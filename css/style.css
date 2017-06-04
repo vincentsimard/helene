@@ -1004,6 +1004,10 @@ a.btn-mod:focus{
 	background-size: cover;
 }
 
+.home-section .hero{
+  margin-top: 55px;
+}
+
 .home-content{
 	display: table;
 	width: 100%;
